@@ -4,14 +4,14 @@ import { getDatabase, ref, get, set, remove, update, onValue, off } from "fireba
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBgMSdXQF17Cx9ndtAfmaEPb8UsVTkrgBo",
-  authDomain: "get-chatgpt-credentials.firebaseapp.com",
-  databaseURL: "https://get-chatgpt-credentials-default-rtdb.firebaseio.com",
-  projectId: "get-chatgpt-credentials",
-  storageBucket: "get-chatgpt-credentials.firebasestorage.app",
-  messagingSenderId: "550539005243",
-  appId: "1:550539005243:web:f8ee67d3c33062c6e1bb1e",
-  measurementId: "G-QCQSFLX6C3"
+  apiKey: "AIzaSyA2pIQ4la9Pgzg3uDe-iN5k3w_kahiXYkw",
+  authDomain: "get-crunchy-credentials.firebaseapp.com",
+  databaseURL: "https://get-crunchy-credentials-default-rtdb.firebaseio.com",
+  projectId: "get-crunchy-credentials",
+  storageBucket: "get-crunchy-credentials.firebasestorage.app",
+  messagingSenderId: "96256317713",
+  appId: "1:96256317713:web:152cc652466fc84e1654b0",
+  measurementId: "G-5XKQEDN0GW"
 };
 
 // Initialize Firebase
