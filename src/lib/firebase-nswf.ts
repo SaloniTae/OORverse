@@ -4,15 +4,16 @@ import { getDatabase, ref, get, set, remove, update, onValue, off } from "fireba
 
 // Firebase configuration for NSWF
 const firebaseConfig = {
-  apiKey: "AIzaSyAYRZD50jryWCXTkoVIGgyBiilYz8VaI0Y",
-  authDomain: "get-account-18-43109.firebaseapp.com",
-  databaseURL: "https://get-account-18-43109-default-rtdb.firebaseio.com",
-  projectId: "get-account-18-43109",
-  storageBucket: "get-account-18-43109.firebasestorage.app",
-  messagingSenderId: "776922570919",
-  appId: "1:776922570919:web:58bf799181ed4d18b03b82",
-  measurementId: "G-MHSXL0FN75"
+  apiKey: "AIzaSyBaTVrC_s3uJpfGEp9o8im-xPDRbn6JkKw",
+  authDomain: "nsfw-18-czke.firebaseapp.com",
+  databaseURL: "https://nsfw-18-czke-default-rtdb.firebaseio.com",
+  projectId: "nsfw-18-czke",
+  storageBucket: "nsfw-18-czke.firebasestorage.app",
+  messagingSenderId: "497741686374",
+  appId: "1:497741686374:web:f4a08857919eb0a6efafa7"
 };
+
+
 // Initialize Firebase for NSWF
 const nswfApp = initializeApp(firebaseConfig, "nswf");
 export const nswfDatabase = getDatabase(nswfApp);
